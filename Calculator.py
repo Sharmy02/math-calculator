@@ -13,4 +13,4 @@ def calculation(firstcalc, operation, secondcalc):
     else:
         return("Incorrect input, please try again")
     
-print(calculation("1", '-', 2))
+print(calculation(1, '-', 2))
