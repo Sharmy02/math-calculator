@@ -3,14 +3,14 @@
 
 def calculation(firstcalc, operation, secondcalc):
     if operation == '+':
-        return(firstcalc + secondcalc)
+        return firstcalc + secondcalc
     elif operation == '-':
-        return(firstcalc - secondcalc)
+        return firstcalc - secondcal
     elif operation == '*':
-        return(firstcalc * secondcalc)
+        return firstcalc * secondcalc
     elif operation == '/':
-        return(firstcalc/ secondcalc)
+        return firstcalc/ secondcalc
     else:
-        return("Incorrect input, please try again")
+        return "Incorrect input, please try again"
     
 print(calculation(1, '-', 2))
