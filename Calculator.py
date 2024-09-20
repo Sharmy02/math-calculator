@@ -2,7 +2,6 @@ print("Hello, welcome to calculator!")
 a= int(input("Please enter your first number:"))
 b= int(input("Please enter your second number:"))
 
-<<<<<<< HEAD
 calc2 = input("Select an operator +, -, /, *")
 
 def add_ (a, b):
@@ -36,20 +35,3 @@ elif calc2 == "*":
 
 
 print("Thank you for using calculator!")
-
-
-=======
-def calculation(firstcalc, operation, secondcalc):
-    if operation == '+':
-        return firstcalc + secondcalc
-    elif operation == '-':
-        return firstcalc - secondcal
-    elif operation == '*':
-        return firstcalc * secondcalc
-    elif operation == '/':
-        return firstcalc/ secondcalc
-    else:
-        return "Incorrect input, please try again"
-    
-print(calculation(1, '-', 2))
->>>>>>> 351e00cdf8022278295bdf29aa4f2b81239ca37e
